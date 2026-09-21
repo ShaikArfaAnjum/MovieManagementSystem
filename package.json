@@ -1,0 +1,22 @@
+{
+  "name": "movie-management-system",
+  "version": "1.0.0",
+  "description": "Student-level Movie Management System using Vanilla JavaScript, HTML, CSS, Axios, and JSON Server",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3000 --static .",
+    "server": "json-server --watch db.json --port 3000 --static ."
+  },
+  "keywords": [
+    "movie-management",
+    "javascript",
+    "json-server",
+    "axios",
+    "student-project"
+  ],
+  "author": "Student Project",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}

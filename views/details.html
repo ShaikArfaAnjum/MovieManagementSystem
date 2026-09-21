@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <a href="index.html" class="brand-title">🎬 Movie Management</a>
+        <a href="index.html" class="btn btn-secondary">← Back to Movies</a>
+    </header>
+
+    <!-- Details Container (Populated by main.js) -->
+    <div id="movieDetailsContainer">
+        <p style="text-align:center; padding: 40px; color:#888;">Loading movie details...</p>
+    </div>
+
+    <!-- Toast Notification Element -->
+    <div id="toastNotification" class="toast"></div>
+
+    <!-- Axios from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- JavaScript Modules -->
+    <script src="../js/service/apiConfig.js"></script>
+    <script src="../js/service/movieService.js"></script>
+    <script src="../exception/validationException.js"></script>
+    <script src="../exception/apiException.js"></script>
+    <script src="../js/utils.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
